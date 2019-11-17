@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import {WrappercomponentComponent} from './wrappercomponent/wrappercomponent.component';
 
 
 const routes: Routes = [
   {
-    path: 'app1',
+    path: 'searchcustomer',
     loadChildren: '../../projects/searchcustomer/src/app/app.module-export#SearchcustomerModule'
   },
-  /*{
-    path: 'app2',
+  {
+    path: 'customerposition',
     loadChildren: '../../projects/customerposition/src/app/app.module-export#App2Module'
   },
   {
-    path: 'somecoreroute',
-    component: SomeCoreComponentComponent
-  },*/
+    path: 'wrappercomponent',
+    component: WrappercomponentComponent
+  },
   {
     path: '',
     redirectTo: '',
