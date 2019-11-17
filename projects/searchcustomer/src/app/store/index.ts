@@ -1,7 +1,7 @@
 import {ShowState} from './showHideElement/hide-show.reducer';
 
 interface State {
-  app1ShowHide: ShowState;
+  searchCustomerShowHide: ShowState;
 }
 
 export * from './showHideElement/hide-show.selectors';
