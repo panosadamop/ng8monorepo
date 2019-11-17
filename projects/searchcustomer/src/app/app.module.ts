@@ -23,10 +23,10 @@ const routes: Routes = [
     CommonLibModule,
     RouterModule.forRoot(routes),
     StoreModule.forRoot({}),
-    StoreModule.forFeature('searchcustomerShowHide', showHideReducer),
+    StoreModule.forFeature('searchCustomerShowHide', showHideReducer),
     !environment.production ? StoreDevtoolsModule.instrument() : []
   ],
   providers: [],
   bootstrap: [SearchCustomerComponent]
 })
-export class AppModule { }
+export class SearchCustomerModule { }
