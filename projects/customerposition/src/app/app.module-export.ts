@@ -3,20 +3,20 @@ import { NgModule } from '@angular/core';
 import {CustomerPositionComponent} from './app.component';
 import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
-import { SearchsampleComponent } from './positionsample/searchsample.component';
 import {CommonLibModule} from '../../../common-lib/src/lib/common-lib.module';
 import {StoreModule} from '@ngrx/store';
 import {showHideReducer} from './store/showHideElement/hide-show.reducer';
+import {PositionSampleComponent} from './positionsample/positionsample.component';
 
 const routes: Routes = [
-  { path: '', component: SearchsampleComponent }
+  { path: '', component: CustomerPositionComponent }
 ];
 
 
 @NgModule({
   declarations: [
     CustomerPositionComponent,
-    SearchsampleComponent
+    PositionSampleComponent
   ],
   imports: [
     CommonModule,

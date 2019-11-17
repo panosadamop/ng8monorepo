@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { CustomerpositionComponent } from './app.component';
-import { PositionsampleComponent } from './positionsample/positionsample.component';
+import { CustomerPositionComponent } from './app.component';
+import { PositionSampleComponent } from './positionsample/positionsample.component';
 
 @NgModule({
   declarations: [
-    CustomerpositionComponent,
-    PositionsampleComponent
+    CustomerPositionComponent,
+    PositionSampleComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [CustomerpositionComponent]
+  bootstrap: [CustomerPositionComponent]
 })
-export class AppModule { }
+export class CustomerPositionModule { }
