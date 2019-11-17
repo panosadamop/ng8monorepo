@@ -22,7 +22,7 @@ const routes: Routes = [
     CommonModule,
     CommonLibModule,
     RouterModule.forChild(routes),
-    StoreModule.forFeature('positionSampleShowHide', showHideReducer),
+    StoreModule.forFeature('customerPositionShowHide', showHideReducer),
   ],
   providers: [],
   bootstrap: [CustomerPositionComponent]

@@ -7,7 +7,8 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { WrappercomponentComponent } from './wrappercomponent/wrappercomponent.component';
-import {CommonLibModule} from 'common-lib';
+import {CommonLibModule} from '../../projects/common-lib/src/lib/common-lib.module';
+
 
 
 @NgModule({
