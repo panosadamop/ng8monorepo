@@ -8,7 +8,7 @@ import {InvertHideShow} from '../store/showHideElement/hide-show.actions';
   templateUrl: './searchsample.component.html',
   styleUrls: ['./searchsample.component.scss']
 })
-export class SearchsampleComponent implements OnInit {
+export class SearchSampleComponent implements OnInit {
 
   showAdmin = true;
 

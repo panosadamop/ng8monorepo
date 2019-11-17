@@ -1,6 +1,6 @@
 import {ShowState} from './showHideElement/hide-show.reducer';
 
-interface customerPositionState {
+interface State {
   customerPositionShowHide: ShowState;
 }
 

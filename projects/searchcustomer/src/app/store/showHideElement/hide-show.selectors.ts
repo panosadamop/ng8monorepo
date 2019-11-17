@@ -6,7 +6,7 @@ const getShowValue = (state: ShowState): boolean => state.show;
 const selectShowState: MemoizedSelector<
   object,
   ShowState
-  > = createFeatureSelector<ShowState>('searchcustomerShowHide');
+  > = createFeatureSelector<ShowState>('searchCustomerShowHide');
 
 const selectShowValue: MemoizedSelector<object, any> = createSelector(
   selectShowState,

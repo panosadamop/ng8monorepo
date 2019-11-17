@@ -1,7 +1,7 @@
 import { Action } from '@ngrx/store';
 
 export enum HideShowActionTypes {
-  invert = '[Searchcustomer HideShow] Invert show',
+  invert = '[SearchCustomer HideShow] Invert show',
 }
 
 export class InvertHideShow implements Action {
