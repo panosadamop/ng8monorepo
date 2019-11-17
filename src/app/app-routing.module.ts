@@ -6,11 +6,11 @@ import {WrappercomponentComponent} from './wrappercomponent/wrappercomponent.com
 const routes: Routes = [
   {
     path: 'searchcustomer',
-    loadChildren: '../../projects/searchcustomer/src/app/app.module-export#SearchcustomerModule'
+    loadChildren: '../../projects/searchcustomer/src/app/app.module-export#SearchCustomerModule'
   },
   {
     path: 'customerposition',
-    loadChildren: '../../projects/customerposition/src/app/app.module-export#App2Module'
+    loadChildren: '../../projects/customerposition/src/app/app.module-export#CustomerPositionModule'
   },
   {
     path: 'wrappercomponent',
