@@ -1,24 +1,24 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": []
   },
   "include": [
-    "../src/**/*.ts",
-    "../projects/searchcustomer/src/**/*.ts",
-    "../projects/customerposition/src/**/*.ts"
+    "src/**/*.ts",
+    "projects/searchcustomer/src/**/*.ts",
+    "projects/customerposition/src/**/*.ts"
   ],
   "exclude": [
-    "test.ts",
+    "src/test.ts",
     "**/*.spec.ts",
-    "../projects/searchcustomer/src/**/*spec.ts",
-    "../projects/customerposition/src/**/*spec.ts",
-    "../projects/searchcustomer/src/app/app.module.ts",
-    "../projects/customerposition/src/app/app.module.ts",
-    "../projects/searchcustomer/src/main.ts",
-    "../projects/customerposition/src/main.ts",
-    "../projects/searchcustomer/src/test.ts",
-    "../projects/customerposition/src/test.ts"
+    "projects/searchcustomer/src/**/*spec.ts",
+    "projects/customerposition/src/**/*spec.ts",
+    "projects/searchcustomer/src/app/app.module.ts",
+    "projects/customerposition/src/app/app.module.ts",
+    "projects/searchcustomer/src/main.ts",
+    "projects/customerposition/src/main.ts",
+    "projects/searchcustomer/src/test.ts",
+    "projects/customerposition/src/test.ts"
   ]
 }
